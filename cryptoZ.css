@@ -881,6 +881,7 @@ button {
   max-width: 1440px;
   height: 804px;
   overflow-x: scroll;
+  overflow-y: hidden;
 }
 .sec3_wrap1 {
   max-width: 1440px;
