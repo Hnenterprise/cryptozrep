@@ -218,7 +218,7 @@ button {
     height: auto;
   }
   .hero1 {
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     margin: 20px auto;
@@ -240,7 +240,7 @@ button {
     margin-bottom: 40px;
     width: 100%;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 90px;
   }
   .mybtc,
   .myeth {
@@ -248,7 +248,7 @@ button {
   }
 
   form input {
-    width: 100%;
+    width: 96%;
     height: 40px;
     margin-bottom: 15px;
   }
@@ -449,7 +449,7 @@ button {
     font-weight: 400;
   }
   .iphone_wrap {
-    width: 100%;
+    width: 90%;
     height: 487px;
     background-color: #e8fafe;
     margin: 0 auto;
@@ -651,18 +651,19 @@ button {
   .sec2_frame1 img:nth-child(1) {
     width: 238px;
     height: 338px;
-    margin-left: -60px;
+    margin-left: -140px;
   }
   .sec2_frame1 img:nth-child(2) {
-    width: 234px;
+    width: 150px;
     height: 158px;
     margin-top: 147px;
   }
   .sec2_frame2 {
-    margin-top: -30px;
-    width: 90%;
+    margin-top: -40px;
+    width: 100%;
   }
   .sec2_frame2 h4 {
+    width: 100%;
     text-align: center;
     font-weight: 550;
   }
@@ -698,20 +699,20 @@ button {
     width: 238px;
     height: 328px;
     margin-top: 10px;
-    margin-left: 25px;
+    margin-left: 0;
   }
   .sec2_frame3 img:nth-child(2) {
-    width: 290px;
+    width: 65%;
     height: 137px;
-    margin-top: -30px;
-    margin-left: -70px;
+    margin-top: 10px;
+    margin-left: -100px;
     margin-right: 20px;
   }
   .sec2_frame4 {
-    width: 90%;
+    width: 100%;
   }
   .sec2_frame4 h4 {
-    margin-top: -30px;
+    margin-top: -50px;
     text-align: center;
     font-weight: 550;
   }
@@ -742,7 +743,7 @@ button {
     width: 238px;
     height: 308px;
     margin-top: 30px;
-    margin-left: 75px;
+    margin-left: 15px;
   }
   .sec2_frame3_1 img:nth-child(2) {
     width: 147.7px;
@@ -756,17 +757,17 @@ button {
     margin-top: 20px;
   }
   .sec2_frame4_1 h4 {
-    width: 80%;
-    margin-left: 50px;
-    margin-top: -30px;
+    width: 100%;
+    margin-left: 5px;
+    margin-top: -40px;
     text-align: center;
-    font-weight: 550;
+    font-weight: 450;
     font-size: 35px;
     font-weight: 700;
   }
   .sec2_frame4_1 p {
-    width: 90%;
-    margin-left: 20px;
+    width: 100%;
+    margin-top: -45px;
     text-align: center;
     font-size: 19px;
     font-weight: 400;
@@ -1002,6 +1003,7 @@ button {
     color: #2c3131;
     font-size: 20px;
     padding: 10px 0;
+    margin-top: -20px;
   }
   .bfooter2 {
     display: none;
