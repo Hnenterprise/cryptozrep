@@ -421,10 +421,10 @@ button {
     line-height: 110%;
   }
   .advert_wrap2 {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
   .advert_wrap3 {
     width: 100%;
     display: flex;
@@ -868,24 +868,25 @@ button {
     margin: 20px auto;
   }
   .sec2_wrap4_1 {
-  width: 100%;
-  height: 413px;
-  background-color: #ffffff;
-  border: 1px solid #e3e3e3;
-  border-radius: 20px;
-}
+    width: 100%;
+    height: 413px;
+    background-color: #ffffff;
+    border: 1px solid #e3e3e3;
+    border-radius: 20px;
+  }
 }
 
 /* what people are saying section */
 .sec3_container {
   max-width: 1440px;
   height: 804px;
+  overflow-x: scroll;
 }
 .sec3_wrap1 {
   max-width: 1440px;
   display: flex;
   flex-direction: column;
-  margin: 2px 120px;
+  margin: 2px 0;
 }
 .sec3_wrap1 div:nth-child(1) h2 {
   font-family: "inter", sans-serif;
@@ -922,6 +923,13 @@ button {
 .myflex div:nth-child(2) p:nth-child(1) {
   margin-bottom: -13px;
   font-weight: 600;
+}
+@media (max-width: 760px) {
+  .sec3_container {
+  max-width: 100%;
+  height: 804px;
+
+}
 }
 
 /* before footer section */
